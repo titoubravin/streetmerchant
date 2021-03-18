@@ -56,7 +56,14 @@ export type Series =
   | 'sonyps5de'
   | 'sf'
   | 'xboxsx'
+  | 'Zotac_3060ti'
+  | 'Asus_dual_3060ti'
+  | 'Gigabyte_3060ti'
+  | 'Asus_rog_3060'
+  | 'Pulse_3d'
+  | 'Evga_ftw_3060ti'
   | 'xboxss';
+
 
 export type Model =
   | 'test:model'
