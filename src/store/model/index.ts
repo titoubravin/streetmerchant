@@ -6,7 +6,14 @@ import {Akinformatica} from './akinformatica';
 import {Allneeds} from './allneeds';
 import {Alternate} from './alternate';
 import {AlternateNL} from './alternate-nl';
-import {Amazon} from './amazon';
+import {Amazon_2} from './Amazon_2';
+import {Amazon_1} from './Amazon_1';
+import {Amazon_3} from './Amazon_3';
+import {Amazon_4} from './Amazon_4';
+import {Amazon_5} from './Amazon_5';
+import {Amazon_6} from './Amazon_6';
+import {Amazon_7} from './Amazon_7';
+import {Amazon_8} from './Amazon_8';
 import {AmazonCa} from './amazon-ca';
 import {AmazonDe} from './amazon-de';
 import {AmazonDeWarehouse} from './amazon-de-warehouse';
@@ -152,7 +159,14 @@ export const storeList = new Map([
   [Allneeds.name, Allneeds],
   [Alternate.name, Alternate],
   [AlternateNL.name, AlternateNL],
-  [Amazon.name, Amazon],
+  [Amazon_2.name, Amazon_2],
+  [Amazon_1.name, Amazon_1],
+  [Amazon_3.name, Amazon_3],
+  [Amazon_4.name, Amazon_4],
+  [Amazon_5.name, Amazon_5],
+  [Amazon_6.name, Amazon_6],
+  [Amazon_7.name, Amazon_7],
+  [Amazon_8.name, Amazon_8],
   [AmazonCa.name, AmazonCa],
   [AmazonDe.name, AmazonDe],
   [AmazonDeWarehouse.name, AmazonDeWarehouse],
