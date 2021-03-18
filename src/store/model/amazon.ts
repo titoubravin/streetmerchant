@@ -19,16 +19,15 @@ export const Amazon: Store = {
     },
     inStock: [
       {
-        container: '#add-to-cart-button',
-        text: ['add to cart'],
-      },
-      {
-        container: '#buy-now-button',
-        text: ['buy now'],
+        container: '#aod-offer-price',
+        text: [''],
       },
     ],
     maxPrice: {
-      container: '#priceblock_ourprice',
+      container: '#aod-price-0 > span > span.a-offscreen',
+    },
+    {
+      container: '#aod-price-1 > span > span.a-offscreen',
     },
   },
   links: [
