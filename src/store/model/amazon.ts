@@ -24,10 +24,7 @@ export const Amazon: Store = {
       },
     ],
     maxPrice: {
-      container: '#aod-price-0 > span > span.a-offscreen',
-    },
-    {
-      container: '#aod-price-1 > span > span.a-offscreen',
+      container: ['#aod-price-0', '#aod-price-1']
     },
   },
   links: [
