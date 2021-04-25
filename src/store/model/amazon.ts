@@ -17,14 +17,13 @@ export const Amazon: Store = {
       container: 'body',
       text: ['enter the characters you see below'],
     },
-    inStock: [
-      {
-        container: '#aod-offer-price',
-        text: [''],
-      },
+    inStock: {
+    container: '#aod-offer-soldBy',
+    text: ['Amazon', 'Amazon Warehouse', 'Amazon EU S.a.r.L.',]
+  },
     ],
     maxPrice: {
-      container: '#aod-price-0',
+      container: '#aod-offer-price',
     },
   },
   links: [
